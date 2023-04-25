@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Forms </title>
+</head>
+<body>
+    <div id="form">
+        <form action=" ">
+            <h1> <center>FORMULÁRIO FREELANCER </center> </h1>
+                 <label for="username"> Nome </label>
+                 <div class="input"> 
+                    <input id="username" name="username" type="text" placeholder="Insira seu nome">
+                 </div>
+                <label for="lastname"> Sobrenome </label>
+                <div class="input">
+                     <input id="lastname" name="lastname" type="text" placeholder="Insira seu sobrenome">
+                </div>
+                <label for="telefone"> Telefone </label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+                </div>
+        <div id="mensagem">
+                <label for="message"> Mensagem </label>
+                <div class="input">
+                    <textarea name="mensagem" placeholder="Informe o que deseja"></textarea>
+                </div>     
+        <div id="lingua"> 
+            <p> IDIOMA  / LÍNGUA </p>
+            <select>
+                <option> Português </option>
+                <option> Inglês </option>
+                <option> Espanhol </option>
+            </select>
+        </div>
+        <div id="btn1">
+            <button type="submit"> no file chosen </button>
+        </div>
+        <div id="linguagens">
+        <select name="linguagens" multiple></id>
+            <option value="Java"> Java </option>
+            <option value="C"> C </option>
+            <option value="C++"> C++ </option>
+            <option value="PHP"> PHP </option>
+        </select>
+        </div>
+        <div id="bd"> 
+            <p> BANCO DE DADOS </p> 
+            MYSQL <input type="radio"> 
+            <hr>
+            POSTGREESQL <input type="radio">
+            <hr>
+            MONGODB <input type="radio">
+            <hr>
+            N /A <input type="radio"> 
+            <hr>
+            OUTROS(S) MYSQL <input type="radio">
+        </div>
+        <div id="turno"> 
+            <p> TURNO PARA REUNIÕES</p>
+            <input type="checkbox"> MANHÃ
+            <hr>
+            <input type="checkbox"> TARDE
+            <hr>
+            <input type="checkbox"> NOITE 
+        </div>
+        <div id="hora"> </div>
+            <input type="time">
+        </div>
+        <div id="data">
+            <p>DATA PREVISTA</p>
+            <input type="date">
+        </div>
+        <div id="btn1">
+            <button type="submit"> ENVIAR </button>
+            <button type="submit"> LIMPAR> </button>
+        </div>
+    </div>
+    </form>
+        </div>
+</body>
+</html>
